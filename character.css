@@ -1,0 +1,42 @@
+.wanted-poster {
+  background: radial-gradient(#deb887, #8b714e);
+  max-width: 528px;
+  margin: auto;
+  padding: 24px;
+}
+
+.wanted-heading {
+  color: #3b3b3b;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Crimson Text", serif;
+}
+
+.wanted-bounty {
+  font-size: 50px;
+  text-align: center;
+  color: darkred;
+  margin: 20px 0;
+  font-family: "Crimson Text", serif;
+}
+
+
+.wanted-img {
+  width: 100%;
+  filter: grayscale(100%) brightness(0.5);
+}
+
+.wanted-poster-navigation{
+  display: flex;
+  flex-direction: column;
+  gap: 12px 48px;
+  padding: 12px 0px;
+  flex-wrap: wrap ;
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+.wanted-poster-navigation a {
+  color: #3b3b3b;
+  font-size: 12px;
+  width: fit-content;
+}

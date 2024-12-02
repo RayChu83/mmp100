@@ -1,0 +1,12 @@
+.robot-hero-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+}
+
+@media (max-width: 968px) {
+    .robot-hero-container {
+        flex-direction: column;
+    }
+}
